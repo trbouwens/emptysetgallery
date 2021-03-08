@@ -5,8 +5,13 @@ Author: Templates On Web
 Author URI: http://templateonweb.com/
 Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
 */
+@font-face {
+    font-family: parade-normal;
+    src: url("../fonts/Parade-Normal.otf") format("opentype");
+}
+
 body{
-  font-family: 'Aladin', cursive;
+  font-family: parade-normal;
    }
 h1,h2,h3,h4,h5,h6{
 padding:0;
@@ -1929,3 +1934,50 @@ width:100%;
  margin-top:40px;
  }
  }
+
+/********************* paint gallery****************/
+.swatch {
+    width:400px;
+    height:500px;
+    border-width:2px;
+    border-color:#fff;
+    border-style:solid;
+    margin-left:auto;
+    margin-right:auto;
+    padding:8px;
+    padding-right:14px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    text-align:right;
+    vertical-align:bottom;
+
+    font-size:24px;
+    font-family: arial;
+    color: #fff;
+
+    background-color: #ef7220;
+}
+
+.swatchbutton{
+    font-size:3rem;
+    width: 44px;
+    height: 44px;
+    font-family: Arial,Baskerville,monospace;
+    cursor:pointer;
+    user-select: none;
+
+}
+.swatchbutton:hover{
+    opacity:0.6;
+}
+
+.swatchbox {
+    width:100%;
+    text-align:center;
+    vertical-align:middle;
+    display:flex;
+    align-items:center;
+}
