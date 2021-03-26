@@ -39,6 +39,10 @@ margin:0;
 }
 a:hover{
 text-decoration:none;
+outline:none;
+}
+a:active{
+outline:none;
 }
 ul{
 padding:0;
@@ -71,9 +75,11 @@ padding-top:0!important;
 /*********************header****************/
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
 background:none;
+outline:none;
   }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
   background:none;
+  outline:none;
   }
 #header{
     background:#000000;
